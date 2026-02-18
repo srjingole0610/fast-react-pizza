@@ -4,8 +4,8 @@ import Username from "../features/users/Username";
 
 function Header() {
   return (
-    <header className="flex items-center justify-between bg-yellow-500 uppercase px-4 py-3 border-b border-stone-500 sm:px-6 flex">
-      <Link to="/" className=" tracking-[0.25rem]">
+    <header className="flex items-center justify-between bg-yellow-500 uppercase px-4 py-3 border-b border-stone-500 sm:px-6">
+      <Link to="/" className=" tracking-widest">
         Fast React Pizza Co.
       </Link>
       <SearchOrder />
